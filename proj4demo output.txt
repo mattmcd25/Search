@@ -1,0 +1,55 @@
+Script started on Fri 30 Sep 2016 02:21:26 AM EDT
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ ./proj4 ttest.txt abcd 3
+File size: 13 bytes.
+Occurrences of the string "abcd": 2
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ ./proj4 ttest.txt abcd 3[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktestfile.txt lol 
+File size: 1044 bytes.
+Occurrences of the string "lol": 3
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ ./proj4 testfile.txt lol 128
+File size: 1044 bytes.
+Occurrences of the string "lol": 3
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ ./proj4 testfile.txt lol 128[K[K
+File size: 1044 bytes.
+Occurrences of the string "lol": 3
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ ./proj4 testfile.txt lol 1[K4096
+File size: 1044 bytes.
+Occurrences of the string "lol": 3
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ ./proj4 testfile.txt lol 409670[K[K[K[K[K[K7654
+File size: 1044 bytes.
+Occurrences of the string "lol": 3
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ ./proj4 testfile.txt lol 7654[K[K[K[Kp3
+File size: 1044 bytes.
+Occurrences of the string "lol": 3
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ ./proj4 testfile.txt lol p3[K7
+File size: 1044 bytes.
+Occurrences of the string "lol": 3
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ ./proj4 testfile.txt lol p7[K17
+Error- thread count for mmap() must be between 1 and 16
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ ./proj4 testfile.txt lol p17[K[K[Kp15
+File size: 1044 bytes.
+Occurrences of the string "lol": 3
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ ./proj4 testfile.txt lol p15[K[K[Kmman[Kp
+File size: 1044 bytes.
+Occurrences of the string "lol": 3
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ ./proj4 testfile.txt lol mmap[K[K[K[K9001
+Error- chunk size for read() must be between 1 and 8192
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ ./proj4 testfile.txt lol 9001[K[K[K[K0
+Error- chunk size for read() must be between 1 and 8192
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ ./proj4 testfile.txt lol 0[K
+File size: 1044 bytes.
+Occurrences of the string "lol": 3
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ ./proj4 testfile.txt lol [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K10m,[K[K000kb.txt lol 8192[K[K[K[Kmmap
+File size: 10445001 bytes.
+Occurrences of the string "lol": 30000
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ ./proj4 10000kb.txt lol mmap[1P
+File size: 1044501 bytes.
+Occurrences of the string "lol": 3000
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ ./proj4 1000kb.txt lol mmap[1P
+File size: 104451 bytes.
+Occurrences of the string "lol": 300
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ ./proj4 100kb.txt lol mmap[1P
+File size: 10446 bytes.
+Occurrences of the string "lol": 30
+]0;matt@matt-gerudo: ~/Documents/CS3013/project4matt@matt-gerudo:~/Documents/CS3013/project4$ exit
+
+Script done on Fri 30 Sep 2016 02:23:31 AM EDT
